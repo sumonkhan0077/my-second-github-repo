@@ -1,0 +1,58 @@
+.container{
+
+}
+.hero{
+    background-image: url(https://images.unsplash.com/photo-1604762512526-b7ce049b5764?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    padding: 40px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    box-shadow: 0 6px 6px -4px  ;
+}
+.logo h3 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: -10px;
+    margin-left: 30px;
+    
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+   
+}
+.nav a {
+    margin-left: 20px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#submit{
+    border: 2px solid rgb(76, 76, 76);
+    padding: 2px;
+    border-radius: 4px;
+    color: rgb(76, 1, 1);
+}
+.hero-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.hero-text h4 {
+    font-size: small;
+    text-transform: uppercase;
+    margin-top: -10px;
+
+}
+.hero-text hr {
+    border: 1px solid black;
+    width: 150px;
+    margin: auto;
+    margin-top: 1px;
+}
+
+
